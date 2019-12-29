@@ -1,1 +1,1 @@
-# tf2.0
+# DSC KMOU Deep Learning Team
