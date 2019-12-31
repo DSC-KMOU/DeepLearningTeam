@@ -6,7 +6,7 @@ DSC KMOU 딥러닝 팀 Repository입니다.
 
 - 이영석 [:octocat:](https://github.com/younnggsuk)
 - 김홍엽 [:octocat:](https://github.com/MaiHon)
-- 강민 [:octocat:](https://github.com/min98k)
+- 김강민 [:octocat:](https://github.com/min98k)
 - 박경수 [:octocat:](https://github.com/monotic1301)
 - 이준혁 [:octocat:](https://github.com/kmouleejunhyuk)
 
