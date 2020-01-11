@@ -12,4 +12,4 @@ DSC KMOU 딥러닝 팀 Repository입니다.
 
 ## Activities
 
-[머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로 책 스터디 (진행 중)](./Study/PythonMachineLearning/README.md)
+[머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로 책 스터디 (진행 중)](./Study/PythonMachineLearning)
