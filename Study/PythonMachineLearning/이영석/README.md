@@ -2,6 +2,8 @@
 
 머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로 공부 예제 정리
 
+<img src="./book_img.jpg" alt="book_img" style="zoom: 67%;" align="left" />
+
 
 
 ## Contents
