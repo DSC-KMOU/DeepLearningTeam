@@ -13,3 +13,5 @@ DSC KMOU 딥러닝 팀 Repository입니다.
 ## Activities
 
 [인공지능 스터디 (진행 중)](./study)
+
+[데이콘 - 15회 원자력발전소 상태 판단 알고리즘 경진대회(진행 중)](./NuclearPowerPlantStatePrediction)
