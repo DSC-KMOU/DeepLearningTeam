@@ -1,0 +1,20 @@
+전략 1
+
+우선 real data와 mimic data를 구분 후
+real data의 변화 시간이 10초로 고정되어 있는 것을 이용, 변화 타임을 예측하는 모델(M_1)을 제작
+-a와 b를 구분하는 단순 알고리즘 제작 후 b가 나타난 최초 타이밍을 관측하면 될 것
+mimic data의 변화 타임을 예측한 후 저장
+
+이후 이 데이터를 이용, b 값만을 추출한 후 레이블 정보를 사용해 예측, 5프로는 validation data로, 5프로는 test로 남길 것
+
+사용 가능한 모델
+gru+fcnn
+lstm+fcnn
+
+conv2d
+cnn
+
+dropout
+gausian noise
+
+loss_fn=categorical_crossentrophy
