@@ -2,6 +2,6 @@
 
 1. [데이터셋 정보](./data_info.md)
 
-2. [실수가 아닌 데이터 및 결측치 분리](./logging_non_float.ipynb)
+2. [실제 데이터 찾기](./find_real_data.ipynb)
 
-3. [실수가 아닌 데이터 확인](./check_non_float_values.ipynb)
+3. [실제 데이터 분석](./real_data.ipynb)
