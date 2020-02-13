@@ -1,0 +1,26 @@
+"""
+#"C:\Users\ksi03\Downloads\RP_data\real_validated\.csv"
+#file_root = r'C:\Users\ksi03\Downloads\RP_data\train\\'
+file_root = r'C:\Users\ksi03\Downloads\RP_data\real_validated\\'
+token=".csv"
+    #30, 1154, 1168, additional_data_01, _02
+data_raw=0
+##데이터 통합, 결측치 제거, 문자 제거##
+#keyword=failequip, 
+#빈칸은 nan으로 찍힘. 
+ind=['30', '1168', '1154', 'additional_data_01']
+for i in range(4):
+    tmp=pd.read_csv(file_root+ind[i]+token, sep=',')
+    if i!=0: data_raw=pd.concat([data_raw, tmp], ignore_index=True)
+    else: data_raw=tmp
+
+#각 열당 유일한 값들 찾기
+tmp_d=data_raw.columns[:]
+unique_arr=[]
+for prop in list(tmp_d):
+    arr=[]
+    if type(data_raw.loc[5, prop]) is str:
+        arr.append(data_raw[prop].unique())
+        arr.append(prop)
+        unique_arr.append(arr)
+"""

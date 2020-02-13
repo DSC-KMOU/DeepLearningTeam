@@ -1,0 +1,25 @@
+V0542
+
+Equip Fail
+Bad
+
+OFF
+ON
+
+CLOSE
+OPEN
+
+MID POSITION
+
+No Data
+Normal
+PRIORITY 3
+
+원핫 인코딩을 이 많은 변수에 하면 차원이 무한정 확장됨. 그렇다고 데이터를 가정하자니 이상함
+
+1. 각 데이터 당 레이블(정수) 할당
+2. 각 데이터 당 나올 가능성이 있는 데이터 레이블을 할당(예: OFF만 있을 때 =>On, OFF로 원핫
+3. pd.get_dummies(dat)이용
+1301~5033
+
+dtype에 문제가 있는 것 같음. 
